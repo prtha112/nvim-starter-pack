@@ -1,9 +1,9 @@
-##Install 
+## Install 
 ```sh
 :PlugInstall
 ```
 
-##Clean Plugin
+## Clean Plugin
 ```sh
 :PlugClean
 ```
