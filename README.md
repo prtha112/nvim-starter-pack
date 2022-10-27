@@ -1,3 +1,5 @@
+![Nvim](https://raw.githubusercontent.com/prtha112/nvim-starter-pack/main/Screenshot%202565-10-28%20at%2002.11.19.png)
+
 ### Config foler
 ```sh
 cd ~
