@@ -31,8 +31,8 @@ touch init.vim
 1. [Python3](https://docs.python-guide.org/starting/install3/osx/)
 2. [Rust](https://www.rust-lang.org/tools/install)
 3. [Node](https://nodejs.org/en/download/)
-4. ```sh npm install --global yarn ```
-5. ```sh arch -arm64 brew install ctags ```
+4. ``` npm install --global yarn ```
+5. ``` arch -arm64 brew install ctags ```
 
 ## Install 
 ```sh
