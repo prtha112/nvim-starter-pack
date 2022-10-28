@@ -1,6 +1,13 @@
 ![Nvim](https://raw.githubusercontent.com/prtha112/nvim-starter-pack/main/Screenshot%202565-10-28%20at%2002.11.19.png)
+# Nvim-starter-pack
+Nvim-starter-pack is repo for quick get start use neovim:
 
-### Installing Neovim
+- Files can be searched with vim-clap.
+- Have a nerdtree managed menu.
+- Split terminal for use command.
+- Support smart suggest in multiple language.
+
+## Installing Neovim
 Homebrew on macOS or Linux
 ```sh
 brew install neovim
@@ -11,7 +18,7 @@ curl -LO https://github.com/neovim/neovim/releases/download/nightly/nvim-macos.t
 tar xzf nvim-macos.tar.gz
 ./nvim-macos/bin/nvim
 ```
-### Config foler
+## Config foler
 ```sh
 cd ~
 mkdir .config
