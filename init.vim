@@ -33,6 +33,15 @@ nnoremap <C-g> :Clap grep<CR>
 nmap <F8> :TagbarToggle<CR>
 nmap <F7> :TerminalSplit bash<CR>
 
+map <C-r> :call NERDTreeToggleAndRefresh()<CR>
+
+function NERDTreeToggleAndRefresh()
+  :NERDTreeToggle
+  if g:NERDTree.IsOpen()
+    :NERDTreeRefreshRoot
+  endif
+endfunction
+
 :set completeopt-=preview " For No Previews
 
 :colorscheme jellybeans
