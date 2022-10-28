@@ -1,5 +1,16 @@
 ![Nvim](https://raw.githubusercontent.com/prtha112/nvim-starter-pack/main/Screenshot%202565-10-28%20at%2002.11.19.png)
 
+### Installing Neovim
+Homebrew on macOS or Linux
+```sh
+brew install neovim
+```
+Pre-built archives
+```sh
+curl -LO https://github.com/neovim/neovim/releases/download/nightly/nvim-macos.tar.gz
+tar xzf nvim-macos.tar.gz
+./nvim-macos/bin/nvim
+```
 ### Config foler
 ```sh
 cd ~
@@ -9,14 +20,11 @@ touch init.vim
 ```
 
 ## Requirement
-1. Python3
-2. Pip3
-3. Rust
-4. Rustup
-5. Cargo
-6. Node
-7. Yarn
-8. arch -arm64 brew install ctags
+1. [Python3](https://docs.python-guide.org/starting/install3/osx/)
+2. [Rust](https://www.rust-lang.org/tools/install)
+3. [Node](https://nodejs.org/en/download/)
+4. ```sh npm install --global yarn ```
+5. ```sh arch -arm64 brew install ctags ```
 
 ## Install 
 ```sh
